@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px; 
+    width: 450px; 
+    background: #f8f8f8; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px; 
+  }
+  
+  .text {
+    color: hsl(10, 83%, 37%); 
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 6px;
+    background: hsl(10, 83%, 37%);
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%; 
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  }
+  
+  .input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    width: 100%;
+    height: 45px;
+    padding: 0 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    outline: none;
+    transition: border-color 0.3s ease; 
+  }
+  
+  .input input:focus {
+    border-color: hsl(10, 83%, 37%); 
+  }
+  
+  .forgot-password {
+    color: #777;
+    font-size: 16px;
+    text-align: right; 
+  }
+  
+  .forgot-password span {
+    color: hsl(10, 83%, 37%);
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+  }
+  
+  .forgot-password span:hover {
+    color: hsl(10, 83%, 37%); 
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px; 
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: hsl(10, 83%, 37%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .submit:hover {
+    background-color: hsl(10, 83%, 37%); 
+  }
+  
+  .submit.gray {
+    background-color: #eaeaea;
+    color: #676767;
+    cursor: not-allowed;
+    box-shadow: none; 
+  }
+  
+  .submit-container .submit:first-child {
+    background-color: hsl(10, 83%, 37%);
+    color: #fff;
+  }
+  
+  .submit-container .submit.gray:first-child {
+    background-color: #eaeaea;
+    color: #676767;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      width: 90%; 
+      margin-top: 60px; 
+    }
+  
+    .text {
+      font-size: 32px; 
+    }
+  
+    .input input {
+      font-size: 14px; 
+    }
+  
+    .submit {
+      width: 150px; 
+    }
+  }
+  
+  
+  
+  
